@@ -7,8 +7,8 @@
 public class coinTester{
   public static void main(String[]args){
     Coin myCoin = new Coin();
-
-for(int count = 0; 0<10; count++){
+int games = 10
+for(int count = 0; 0<games; count++){
 
 
     System.out.println(myCoin.toString());

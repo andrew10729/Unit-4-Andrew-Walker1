@@ -11,6 +11,21 @@ public class Coin{
     flip();
   }
 
+public int getFace(){
+return face;
+}
+
+public void setFace(int newFace){
+face = newFace;
+
+}
+
+
+
+
+
+
+
   //START OF METHODS(FUNCTIONS)
   //Flipping the coin
   public void flip(){

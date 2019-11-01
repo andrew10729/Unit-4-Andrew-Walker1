@@ -4,7 +4,7 @@ public class carTester{
 
     System.out.println(myCar);
 
-    //myCar.drive()
+    myCar.drive(600);
 
 
 
