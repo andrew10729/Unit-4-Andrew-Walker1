@@ -7,7 +7,7 @@
 public class coinTester{
   public static void main(String[]args){
     Coin myCoin = new Coin();
-int games = 10
+int games = 10;
 for(int count = 0; 0<games; count++){
 
 

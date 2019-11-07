@@ -34,11 +34,19 @@ public class Car{
   public void drive(double miles){
     double totalMiles = mpg * tankSize;
     double drivenMiles = miles/mpg;
-    System.out.println(drivenMiles);
+    System.out.println(drivenMiles+ " gallons used");
     if(drivenMiles>tankSize){
     System.out.println("Not Enough Fuel");
 
-    System.out.println("Car drove " + miles + " miles");
+
     }
+  }
+  public void addFuel(double addGallons){
+  System.out.println(mpg);
+
+
+
+
+
   }
 }
