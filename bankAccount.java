@@ -28,9 +28,23 @@ public class bankAccount {
         }
 
         public int withdraw(int drawCash) {
-            //withdrew = balance - drawCash;
+           int diff = drawCash - balance;
+           diff = diff * -1;
+            withdrew = balance - diff;
            balance = balance - drawCash;
             return balance;
+
+        }
+
+        public void interest(int rate){
+            int interstRate = rate;
+            int stepOne = balance * rate;
+          balance = balance + stepOne;
+
+
+
+
+
 
         }
 

@@ -8,10 +8,10 @@ public class coinTester{
   public static void main(String[]args){
     Coin myCoin = new Coin();
 int games = 10;
-for(int count = 0; 0<games; count++){
+for(int Count = 1; Count<games; Count++){
 
 
-    System.out.println(myCoin.toString());
+    System.out.println(myCoin);
   }
 
 

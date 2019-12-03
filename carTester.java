@@ -4,7 +4,11 @@ public class carTester{
 
     System.out.println(myCar);
 
-    myCar.drive(600);
+    myCar.drive(200);
+
+    myCar.addFuel(5);
+
+    myCar.odo();
 
 
 

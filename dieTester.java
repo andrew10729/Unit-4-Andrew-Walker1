@@ -11,16 +11,18 @@ public class dieTester {
         System.out.println("Die 1 = " + d1.getFace());
         System.out.println("Die 2 = " + d2.getFace());
 
-        if(d1 == d2) {
-            System.out.println("You Got A Double!");
-        }else{
-            System.out.println("Fail!");
+
+        while(d1.getFace()!=d2.getFace()) {
             d1.roll();
             d2.roll();
+
             System.out.println("Die 1 = " + d1.getFace());
             System.out.println("Die 2 = " + d2.getFace());
 
         }
+        System.out.println("Success!");
+
+
 
 
 

@@ -31,10 +31,12 @@ public class bankTester {
         System.out.println("You Deposited "+b1.getBalance()+" dollars!");
         System.out.println("Your current balance is "+b1.getBalance()+"dollars");
 
-        b1.withdraw(3500);
+        b1.withdraw(8976);
         System.out.println("You withdrew "+b1.getWithdrew()+" dollars!");
 
         System.out.println("Your Remaining Balance "+b1.getBalance()+"" );
+
+        b1.interest();
 
 
 
